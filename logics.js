@@ -24,8 +24,8 @@ if(playerMove=='rock') {
   document.querySelector('.js-result').innerHTML=`${result}`;
   document.querySelector('.js-moves')
   .innerHTML=`You
-<img class="move-icon" src=`./images/${playerMove}-emoji.png`> 
-<img class="move-icon" src=`./images/${computerMove}-emoji.png`>
+<img class="move-icon" src=`/images/${playerMove}-emoji.png`> 
+<img class="move-icon" src=`/images/${computerMove}-emoji.png`>
 Computer`;
   updateScore();
   
@@ -47,8 +47,8 @@ Computer`;
   document.querySelector('.js-result').innerHTML=`${result}`;
   document.querySelector('.js-moves')
   .innerHTML=`You
-<img class="move-icon" src=`./images/${playerMove}-emoji.png`> 
-<img class="move-icon" src=`./images/${computerMove}-emoji.png`>
+<img class="move-icon" src=`/images/${playerMove}-emoji.png`> 
+<img class="move-icon" src=`/images/${computerMove}-emoji.png`>
 Computer`;
   updateScore();
 }else if(playerMove=='scissors') {
@@ -68,8 +68,8 @@ Computer`;
   document.querySelector('.js-result').innerHTML=`${result}`;
   document.querySelector('.js-moves')
   .innerHTML=`You
-<img class="move-icon" src=`./images/${playerMove}-emoji.png`> 
-<img class="move-icon" src=`./images/${computerMove}-emoji.png`>
+<img class="move-icon" src=`/images/${playerMove}-emoji.png`> 
+<img class="move-icon" src=`/images/${computerMove}-emoji.png`>
 Computer`;
   updateScore();
 }      
